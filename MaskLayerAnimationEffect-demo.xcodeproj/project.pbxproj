@@ -15,6 +15,7 @@
 		9B09F6191D6C3D1A00247F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B09F6171D6C3D1A00247F1A /* LaunchScreen.storyboard */; };
 		9B09F6241D6C3D1A00247F1A /* MaskLayerAnimationEffect_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09F6231D6C3D1A00247F1A /* MaskLayerAnimationEffect_demoTests.m */; };
 		9B09F62F1D6C3D1A00247F1A /* MaskLayerAnimationEffect_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09F62E1D6C3D1A00247F1A /* MaskLayerAnimationEffect_demoUITests.m */; };
+		C8C1616E1D76C2B000E52E14 /* UnlockAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C1616D1D76C2B000E52E14 /* UnlockAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B09F62A1D6C3D1A00247F1A /* MaskLayerAnimationEffect-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaskLayerAnimationEffect-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B09F62E1D6C3D1A00247F1A /* MaskLayerAnimationEffect_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerAnimationEffect_demoUITests.m; sourceTree = "<group>"; };
 		9B09F6301D6C3D1A00247F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C1616C1D76C2B000E52E14 /* UnlockAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockAnimation.h; sourceTree = "<group>"; };
+		C8C1616D1D76C2B000E52E14 /* UnlockAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9B09F60D1D6C3D1A00247F1A /* AppDelegate.m */,
 				9B09F60F1D6C3D1A00247F1A /* ViewController.h */,
 				9B09F6101D6C3D1A00247F1A /* ViewController.m */,
+				C8C1616C1D76C2B000E52E14 /* UnlockAnimation.h */,
+				C8C1616D1D76C2B000E52E14 /* UnlockAnimation.m */,
 				9B09F6121D6C3D1A00247F1A /* Main.storyboard */,
 				9B09F6151D6C3D1A00247F1A /* Assets.xcassets */,
 				9B09F6171D6C3D1A00247F1A /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C1616E1D76C2B000E52E14 /* UnlockAnimation.m in Sources */,
 				9B09F6111D6C3D1A00247F1A /* ViewController.m in Sources */,
 				9B09F60E1D6C3D1A00247F1A /* AppDelegate.m in Sources */,
 				9B09F60B1D6C3D1A00247F1A /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				9B09F6351D6C3D1A00247F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B09F6361D6C3D1A00247F1A /* Build configuration list for PBXNativeTarget "MaskLayerAnimationEffect-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				9B09F6381D6C3D1A00247F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B09F6391D6C3D1A00247F1A /* Build configuration list for PBXNativeTarget "MaskLayerAnimationEffect-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				9B09F63B1D6C3D1A00247F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
